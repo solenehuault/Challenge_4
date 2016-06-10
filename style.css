@@ -1,9 +1,79 @@
 .Menu{
 	float: right;
+	margin-right: 50px;
 
 }
+.titre{
+	padding-left:100px;
+}
 .entete{
-background-color:white;
+background-color:transparent;
 border: transparent;
 color:black;
+}
+.photo{
+	margin-top: 50px;
+	width: 100%;
+	height: 800px;
+	background-image: url(header.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+}
+.trait{
+	width: 40px;
+	background-color:#f05f40; 
+	height:2px;
+	border: none;
+	margin:0 auto;
+
+  }
+.bouton{
+	margin:0 auto; 
+}
+.orange{
+	background-color: #f05f40;
+	border: none; 
+}
+h1{
+text-align:center;
+margin-top:200px; 
+color: white;
+}
+.Paragraphe1{
+	text-align:center;
+	color:white;
+	font-size: 17px; 
+}
+.bloc2{
+	padding-top: 50px;
+	background-color:#f05f40;
+	height: 600px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+	color: white;
+}
+.trait2{
+	width: 40px;
+	background-color:rgb(255,255,255); 
+ 	height:2px;
+	border: none;
+  }
+  i{
+  	color:#f05f40;
+  	padding-top: 30px;
+  }
+section{
+	height: 600px;
+	padding-top: 100px;
+}
+h4{
+	padding-top: 30px;
+	padding-bottom: 20px
 }
