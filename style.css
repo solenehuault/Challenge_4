@@ -1,10 +1,5 @@
-.Menu{
-	float: right;
-	margin-right: 50px;
-
-}
-.titre{
-	padding-left:100px;
+*{
+	font-family: 'Open Sans';
 }
 .entete{
 	background-color:transparent;
@@ -32,24 +27,25 @@
 
   }
 .bouton{
-	margin:0 auto; 
+	margin:0 auto;
+	margin-top: 25px;
 }
 .orange{
 	background-color: #f05f40;
 	border: none; 
+	margin-top: 25px;
 }
 h1{
-text-align:center;
 margin-top:200px; 
 color: white;
 }
 .Paragraphe1{
 	text-align:center;
 	color:white;
-	font-size: 17px; 
+	margin-top: 25px; 
 }
 .bloc2{
-	padding-top: 50px;
+	padding-top: 100px;
 	background-color:#f05f40;
 	height: 600px; 
 	display: flex;
@@ -57,6 +53,10 @@ color: white;
 	align-items: center;
 	text-align: justify;
 	color: white;
+}
+.paragraphe2{
+	margin-top:25px;
+	
 }
 .trait2{
 	width: 40px;
@@ -75,6 +75,9 @@ section{
 h4{
 	padding-top: 30px;
 	padding-bottom: 20px
+}
+p{
+	font-size: 17px;
 }
 
 
