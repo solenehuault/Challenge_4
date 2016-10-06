@@ -9,42 +9,36 @@ body {
 
 /* NAVBAR */
 .navbar-default {
-	background-color: #FFF;
-	border-color: #FFF;
+	background-color: transparent;
+	border-color: #A09C9D;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 .navbar-default .navbar-brand {
-	color: #F05F40;
+	color: #A09C9D;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #F05F40;
+	color: #fff;
+	transition: 1s;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #000;
+	color: #A09C9D;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #000;
-}
-
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-	color: #000;
-	background-color: #FFF;
+	color: #fff;
+	transition: 1s;
 }
 
 /* HEADER */
 .header {
-	background: #fff url("../img/header.jpg") no-repeat;
-	margin-top: 40px;
-	height: 1020px;
+	background: url("../img/header.jpg") no-repeat;
+	height: 700px;
 	width: 100%;
 	text-align: center;
 }
