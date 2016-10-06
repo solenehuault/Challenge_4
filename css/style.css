@@ -1,7 +1,18 @@
-/* navbar */
+/* FONT */
+body {
+	font-family: "Open Sans";
+}
+
+.merri {
+	font-family: "Merriweather"
+}
+
+/* NAVBAR */
 .navbar-default {
 	background-color: #FFF;
 	border-color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .navbar-default .navbar-brand {
@@ -27,4 +38,22 @@
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #000;
 	background-color: #FFF;
+}
+
+/* HEADER */
+.header {
+	background: #fff url("../img/header.jpg") no-repeat;
+	margin-top: 40px;
+	height: 1020px;
+	width: 100%;
+	text-align: center;
+}
+
+.header h1 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header p {
+	color: whitesmoke;
 }
